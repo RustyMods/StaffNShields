@@ -132,7 +132,6 @@
     </ItemGroup>
     <ItemGroup>
         <Content Include=".gitignore"/>
-        <Content Include="assets\DropAssetBundleInThisFolder.txt"/>
         <Content Include="environment.props"/>
         <Content Include="ILRepack.targets"/>
         <Content Include="Libs\ServerSync.dll">
@@ -150,9 +149,6 @@
             <PrivateAssets>all</PrivateAssets>
             <IncludeAssets>runtime; build; native; contentfiles; analyzers; buildtransitive</IncludeAssets>
         </PackageReference>
-    </ItemGroup>
-    <ItemGroup>
-      <Folder Include="icons\" />
     </ItemGroup>
     <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets"/>
     <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 
