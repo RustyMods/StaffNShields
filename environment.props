@@ -1,0 +1,10 @@
+<Project>
+    <PropertyGroup>
+        <ValheimGamePath>C:\Program Files (x86)\Steam\steamapps\common\Valheim</ValheimGamePath>
+        <BepInExPath>C:\Users\malco\AppData\Roaming\com.kesomannen.gale\valheim\profiles\Default\BepInEx</BepInExPath>
+        <CorlibPath>$(ValheimGamePath)\valheim_Data\Managed</CorlibPath>
+        <PublicizedAssembliesPath>$(ValheimGamePath)\valheim_Data\Managed\publicized_assemblies</PublicizedAssembliesPath>
+        <CopyOutputDLLPath>C:\Users\malco\AppData\Roaming\com.kesomannen.gale\valheim\profiles\test 1.0\BepInEx\plugins</CopyOutputDLLPath>
+        <AfterTargets>ILRepacker</AfterTargets>
+    </PropertyGroup>
+</Project>

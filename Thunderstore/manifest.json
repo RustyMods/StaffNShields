@@ -1,0 +1,9 @@
+{
+  "name": "StaffNShields",
+  "version_number": "1.0.0",
+  "website_url": "",
+  "description": "I'm a wizard, but I still want to use a shield !",
+  "dependencies": [
+    "denikson-BepInExPack_Valheim-5.4.2351"
+  ]
+}
